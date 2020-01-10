@@ -5,7 +5,7 @@ class Student < User
   end 
   
   def learn (string)
-    string = KNOWLEDGE.sample
+    
     self.knowledge << string 
   end 
   def knowledge
